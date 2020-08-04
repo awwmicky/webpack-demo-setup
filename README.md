@@ -1,6 +1,6 @@
 # Webpack Demo Setup [(**Live Preview**)](https://awwmicky.github.io/webpack-demo-setup/)
 
-Check the DevTool Sources tab. It'll all make sense when you see code smushed up into a single line of beautiful garbage. 🤢🤬🤓
+When you visit the page, check the DevTool Sources tab. It'll all make sense when you see the code smushed up into a single line of beautiful garbage. 🤢🤬🤓
 
 ## NPM DevDependencies
 **Weppack**
