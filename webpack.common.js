@@ -23,7 +23,7 @@ module.exports = {
                     options: {
                         limit: 1000,
                         name: '[name]-[hash].[ext]',
-                        outputPath: '/assets/fonts'
+                        outputPath: './assets/fonts'
                     }
                 }
             },
@@ -33,7 +33,7 @@ module.exports = {
                     loader: 'file-loader',
                     options: {
                         name: '[name]-[hash].[ext]',
-                        outputPath: '/assets/images'
+                        outputPath: './assets/images'
                     }
                 }
             }
