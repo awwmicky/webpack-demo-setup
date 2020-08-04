@@ -1,0 +1,27 @@
+main {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main > div {
+    border: 2px solid black;
+    max-width: 345px;
+}
+
+blockquote {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+::selection {
+    background-image: initial;
+    background-color: rgba(42, 45, 47, 0.7);
+    color: rgb(226, 223, 219);
+}
