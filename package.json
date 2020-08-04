@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://awwmicky.github.io/webpack-demo-setup/",
   "scripts": {
     "dev": "npm run build:dev && webpack-dev-server --config webpack.dev.js",
     "prod": "npm run build && webpack-dev-server --config webpack.prod.js",
     "build:dev": "webpack --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
-    "predeploy": "rimraf ./dist && npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "rimraf ./dist/* && npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "",
